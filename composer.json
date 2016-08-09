@@ -1,0 +1,12 @@
+{
+    "name": "mbry/dgdattoxlsx",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Mbry"
+        }
+    ],
+    "require": {
+        "phpoffice/phpexcel": "^1.8"
+    }
+}
