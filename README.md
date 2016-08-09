@@ -1,4 +1,6 @@
-# DoubleGis dgdat to xlsx converter
+# dgdat to xlsx converter
+
+## Convert offline desktop DoubleGis *.dgdat bases to Microsoft Excel
 
 ## Install package
 
