@@ -1,1 +1,1 @@
-# DgdatToXlsx
+# Конвертор dgdat в xlsx
