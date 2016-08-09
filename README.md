@@ -12,6 +12,6 @@ composer update
 ## Convert all *.dgdat files from download folder
 
 ```
-php conver.php
+php convert.php
 
 ```
