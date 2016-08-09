@@ -1,8 +1,8 @@
-# dgdat to xlsx converter
+# dgdat to xlsx конвертер
 
-## Convert offline desktop DoubleGis *.dgdat bases to Microsoft Excel
+## Конвертирует базы ДубльГис (*.dgdat) в файлы формата Microsoft Excel
 
-## Install package
+## Установка
 
 ```
 
@@ -11,9 +11,34 @@ composer update
 
 ```
 
-## Convert all *.dgdat files from download folder
+## Сконвертировать все *.dgdat файлы в папке download
 
 ```
 php convert.php
 
 ```
+
+## Следующие поля присутствуют в результирующем Excel файле
+* ID
+* Название организации
+* Населенный пункт
+* Раздел
+* Подраздел
+* Рубрика
+* Телефоны
+* Факсы
+* Email
+* Сайт
+* Адрес
+* Почтовый индекс
+* Типы платежей
+* Время работы
+* Собственное название строения
+* Назначение строения
+* Vkontakte
+* Facebook
+* Skype
+* Twitter
+* Instagram
+* ICQ
+* Jabber   
