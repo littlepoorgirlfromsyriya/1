@@ -6,6 +6,9 @@ require_once('vendor/autoload.php');
 ****************************************
 *
 * https://github.com/mbry/DgdatToXlsx/
+
+* При использовании алгоритмов или части кода
+* ссылка на первоисточник обязательна!
 *
 ****************************************
 */
@@ -158,10 +161,6 @@ while(strlen($tbl))
 		$optroot = ftell($fp);
 
 	$temp = ReadString($size);
-
-	if($chunk!="data") {
-//		file_put_contents($srcfolder.$chunk, $temp);
-	}
 }
 
 //
@@ -325,7 +324,6 @@ $cols = array(
 	"Почтовый индекс" => 10,
 	"Типы платежей" => 20,
 	"Время работы" => 34,
-//	"Комментарий к времени работы" => 20,
 	"Собственное название строения" => 25,
 	"Назначение строения" => 25,
 	"Vkontakte" => 20,
@@ -655,10 +653,6 @@ else {
 }
 
 print "done\nRemoving temporary files... ";
-
-foreach(glob($srcfolder.'data/*') As $filename) {
-//	@unlink($filename);
-}
 
 @rmdir($srcfolder.'data/');
 

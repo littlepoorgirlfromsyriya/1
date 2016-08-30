@@ -6,6 +6,11 @@
             "name": "Mbry"
         }
     ],
+    "autoload": {
+        "files": [
+            "common/common.php"
+        ]
+    },
     "require": {
         "phpoffice/phpexcel": "^1.8"
     }
